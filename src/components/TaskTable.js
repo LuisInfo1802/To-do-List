@@ -5,7 +5,7 @@ import axios from 'axios';
 En caso de que cuando se ejecute la API genere otro numero
 sera necesario cambiarlo en el enlace que se presenta aquí
 */
-const API_URL = 'http://www.miapjs.somee.com/api/Tasks';
+const API_URL = 'https://www.miapjs.somee.com/api/Tasks';
 
 const TaskTable = () => {
   const [tasks, setTasks] = useState([]);
